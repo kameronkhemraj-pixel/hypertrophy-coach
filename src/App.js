@@ -32,11 +32,6 @@ END PLAN
 
 After the plan, give 3-4 key coaching notes.`;
 
-const C = {
-  bg: "#0c0c0c", surface: "#161616", surfaceHigh: "#1f1f1f",
-  border: "#272727", accent: "#c8ff00", accentDim: "#8aaf00",
-  text: "#f0f0f0", textMid: "#888", textDim: "#444",
-};
 
 function parsePlan(text) {
   const start = text.indexOf("WEEKLY PLAN:");
